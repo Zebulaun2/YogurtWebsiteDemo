@@ -1,9 +1,37 @@
 /*Style sheet*/
 
 body{
-    background-color:black
+    background-color:rgb(5, 5, 5)
+}
+
+h1 {
+    color:darkkhaki;
+    font-size:75px;
+    font-family:'Times New Roman', Times, serif;
+}
+h3 {
+    color:darkkhaki;
+    font-size:30px;
+}
+
+p, li {
+    color:white;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .home-header {
-    color:blanchedalmond;
+    font-size:100px;
+}
+
+/*Image sizes*/
+.home-img {height:auto; width:750px;}
+.about-img {height:auto; width:750px;}
+.recipe-img {height:auto; width:500px;}
+
+a {
+    color:aqua;
+}
+
+img {
+    color:white;
 }
